@@ -6,6 +6,7 @@ import numpy as np
 import mediapipe as mp 
 from keras.models import load_model
 import webbrowser
+# To run file , streamlit run music.py
 
 model  = load_model("model.h5")
 label = np.load("labels.npy")
