@@ -4,6 +4,5 @@ opencv-python-headless
 numpy
 mediapipe
 keras
-tensorflow  # Keras is part of TensorFlow now, so we need to include it
+tensorflow
 av
-webbrowser  # You don’t need to add this as it’s part of Python's standard library
